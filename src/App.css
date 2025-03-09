@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url('./assets/map.avif');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.title {
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.description {
+  background-color: antiquewhite;
+  margin: 1rem;
+  padding: o.5rem;
+  border-radius: 10px;
+}
+
