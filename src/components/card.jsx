@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import flashcards from '../flashcards';
 import './card.css';
+import Form from './form';
 
 export default function Card() {
   const [flip, setFlip] = useState(false);
@@ -25,9 +26,6 @@ export default function Card() {
       <div className={`card-container ${flip ? 'flip' : ''}`} onClick={handleClick}>
         <div className="card">
           <div className="card-face card-front">
-            {flashcards[currentCard].image && (
-              <img src={flashcards[currentCard].image} alt="Flashcard" className="card-image" />
-            )}
             <p>{flashcards[currentCard].question}</p>
           </div>
           <div className="card-face card-back">
@@ -37,6 +35,7 @@ export default function Card() {
       </div>
       <button onClick={handlePrev} disabled={currentCard === 0}>Previous</button>
       <button onClick={handleNext} disabled={currentCard === flashcards.length - 1}>Next</button>
+      <Form currentCard={currentCard}/>
     </div>
   );
 }

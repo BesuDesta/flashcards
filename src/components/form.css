@@ -1,0 +1,14 @@
+.form {
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.form.correct {
+  border-color: green;
+}
+
+.form.incorrect {
+  border-color: red;
+}
