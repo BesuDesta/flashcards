@@ -30,8 +30,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![Flashcards3](https://github.com/user-attachments/assets/2e7ae450-561e-4bd6-88a8-115668e81ecd)
 
-![Flashcards2](https://github.com/user-attachments/assets/f686b909-370c-4f14-849e-4cda001688d5)
 
 
 GIF created with ...  
